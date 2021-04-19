@@ -1,0 +1,14 @@
+{
+    "name": "demo/task",
+    "description" : "description",
+    "require": {
+        "izniburak/router": "^2.2",
+        "catfan/medoo": "^1.7",
+        "symfony/http-foundation": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}

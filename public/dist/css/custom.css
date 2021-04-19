@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+table {
+  table-layout: fixed;
+}
+
+.sort-wrapp {
+  display: inline-flex;
+  align-items: center;
+}
+
+a[data-order=asc]:before {
+  content: "\F0D7";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+a[data-order=desc]:before {
+  content: "\F0D8";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
