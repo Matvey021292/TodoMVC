@@ -12,7 +12,7 @@
 <body>
 <div class="navbar navbar-expand-lg navbar-light bg-light d-flex justify-content-between">
     <div class="container-fluid">
-        <a class="navbar-brand">Bejee</a>
+        <a class="navbar-brand">BeeJee</a>
         <?php if (empty($login)) { ?>
             <a class="btn btn-outline-primary" href="/login">Войти</a>
         <?php } else { ?>
